@@ -43,7 +43,8 @@ SPDX-License-Identifier: GPL-2.0-or-later
     <!-- Title bar -->
     <Grid x:Name="TitleBar" Grid.Row="0" Background="{StaticResource ChromeBrush}">
       <StackPanel Orientation="Horizontal" Spacing="10" Margin="16,0" VerticalAlignment="Center">
-        <Image Source="avares://SharpEmu.GUI/Assets/logo.png" Width="20" Height="20" />
+        <Image Source="avares://SharpEmu.GUI/Assets/SharpEmu.ico" Width="20" Height="20"
+               RenderOptions.BitmapInterpolationMode="HighQuality" />
         <TextBlock Text="SharpEmu" FontSize="14" FontWeight="SemiBold" VerticalAlignment="Center" />
         <Border Classes="pill">
           <TextBlock x:Name="VersionText" Text="v0.0.1" FontSize="11" Foreground="{StaticResource MutedBrush}" />
