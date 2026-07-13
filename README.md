@@ -122,3 +122,16 @@ Provided valuable references for filesystem handling and low-level C# implementa
 # License
 
 - [**GPL-2.0 license**](https://github.com/par274/sharpemu/blob/main/LICENSE)
+
+## Contributing
+
+Before opening an issue or pull request, please read our contribution guidelines:
+
+**[CONTRIBUTING.md](./CONTRIBUTING.md)**
+
+The guide covers:
+- Coding style and formatting
+- AI-assisted contributions
+- Pull request expectations
+- Testing guidelines
+- Legal and reverse engineering policy
